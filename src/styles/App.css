@@ -1,0 +1,22 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo_top {
+  width: 120%;
+  height: 50%;
+  display: inline-block;
+  /* Adjust as needed for spacing */
+  margin-right: 100px;
+}
+
+.header {
+  display: inline-block;
+  /* If you need to control width */
+  flex-grow: 1;
+  margin-left: 100px;
+}
+

@@ -1,0 +1,107 @@
+// Sample summer camp data
+export const initialCamps = [
+  {
+    id: 1,
+    name: "Wilderness Adventure Camp",
+    minAge: 8,
+    maxAge: 12,
+    interests: ["outdoors", "sports", "nature"],
+    schedule: "full-day",
+    fee: 350,
+    location: { lat: 37.7749, lng: -122.4194 },
+    address: "123 Forest Lane, San Francisco, CA 94103",
+    phone: "(415) 555-1234",
+    website: "www.wildernessadventurecamp.com"
+  },
+  {
+    id: 2,
+    name: "Tech Innovators Camp",
+    minAge: 10,
+    maxAge: 16,
+    interests: ["technology", "science", "coding"],
+    schedule: "full-day",
+    fee: 450,
+    location: { lat: 37.7833, lng: -122.4167 },
+    address: "456 Innovation Drive, San Francisco, CA 94105",
+    phone: "(415) 555-2345",
+    website: "www.techinnovatorscamp.com"
+  },
+  {
+    id: 3,
+    name: "Young Artists Studio",
+    minAge: 6,
+    maxAge: 14,
+    interests: ["art", "crafts", "music"],
+    schedule: "half-day",
+    fee: 275,
+    location: { lat: 37.7694, lng: -122.4862 },
+    address: "789 Creative Avenue, San Francisco, CA 94118",
+    phone: "(415) 555-3456",
+    website: "www.youngartistsstudio.com"
+  },
+  {
+    id: 4,
+    name: "Sports Champions Academy",
+    minAge: 7,
+    maxAge: 15,
+    interests: ["sports", "swimming", "teamwork"],
+    schedule: "full-day",
+    fee: 375,
+    location: { lat: 37.8044, lng: -122.4325 },
+    address: "321 Athletic Field, San Francisco, CA 94109",
+    phone: "(415) 555-4567",
+    website: "www.sportschampsacademy.com"
+  },
+  {
+    id: 5,
+    name: "Science Explorers Camp",
+    minAge: 9,
+    maxAge: 14,
+    interests: ["science", "nature", "technology"],
+    schedule: "full-day",
+    fee: 400,
+    location: { lat: 37.7699, lng: -122.4664 },
+    address: "567 Discovery Lane, San Francisco, CA 94117",
+    phone: "(415) 555-5678",
+    website: "www.scienceexplorerscamp.com"
+  },
+  {
+    id: 6,
+    name: "Music & Dance Academy",
+    minAge: 5,
+    maxAge: 13,
+    interests: ["music", "dance", "performance"],
+    schedule: "half-day",
+    fee: 300,
+    location: { lat: 37.7852, lng: -122.4001 },
+    address: "890 Melody Street, San Francisco, CA 94107",
+    phone: "(415) 555-6789",
+    website: "www.musicdanceacademy.com"
+  },
+  {
+    id: 7,
+    name: "Culinary Kids Cooking Camp",
+    minAge: 8,
+    maxAge: 15,
+    interests: ["cooking", "crafts", "teamwork"],
+    schedule: "half-day",
+    fee: 325,
+    location: { lat: 37.7648, lng: -122.4425 },
+    address: "432 Gourmet Avenue, San Francisco, CA 94110",
+    phone: "(415) 555-7890",
+    website: "www.culinarykidscamp.com"
+  },
+  {
+    id: 8,
+    name: "Nature Explorers Camp",
+    minAge: 6,
+    maxAge: 12,
+    interests: ["nature", "outdoors", "science"],
+    schedule: "full-day",
+    fee: 375,
+    location: { lat: 37.7902, lng: -122.4836 },
+    address: "765 Park Road, San Francisco, CA 94121",
+    phone: "(415) 555-8901",
+    website: "www.natureexplorerscamp.com"
+  }
+];

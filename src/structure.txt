@@ -1,0 +1,47 @@
+summer-camp-finder/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── components/
+│   │   ├── App.js              # Main application component
+│   │   ├── FilterPanel.js      # Contains all filter controls
+│   │   ├── CampList.js         # Displays filtered camps as a list
+│   │   ├── CampMap.js          # Interactive map with camp markers
+│   │   ├── CampMarker.js       # Individual map marker component
+│   │   └── CampDetail.js       # Popup for detailed camp info
+│   │
+│   ├── data/
+│   │   └── camps.json          # JSON data of all summer camps
+│   │
+│   ├── utils/
+│   │   └── filterUtils.js      # Helper functions for filtering
+│   │
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── FilterPanel.css
+│   │   ├── CampList.css
+│   │   └── CampMap.css
+│   │
+│   ├── index.js
+│   └── index.css
+│
+├── package.json
+└── README.md
+
+Component Hierarchy
+App
+├── FilterPanel
+│   ├── AgeFilter
+│   ├── InterestFilter
+│   ├── ScheduleFilter
+│   ├── FeeFilter
+│   └── LocationFilter
+│
+├── CampList
+│   └── CampDetail (on hover/click)
+│
+└── CampMap
+    └── CampMarker (with popup on hover)
